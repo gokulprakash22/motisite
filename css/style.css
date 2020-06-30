@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Indie+Flower|Lexend+Mega&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.9);
+    font-family: 'Indie Flower', cursive;
+    text-transform: uppercase; 
+}
+.navbar-brand{
+    font-size: 36px;
+}
+.nav-item{
+    font-size:18px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover,.nav-link.active{
+    color: green !important;
+}
+.navbar-brand span{
+    color:green;
+    font-weight: bold;
+}
+
+#home{
+    background: url('../img/ff.jpg') no-repeat 75% 50%;
+    width:100%;
+    height:650px;
+}
+.startpara{
+    color:black;
+    font-family: 'Lexend Mega', sans-serif;
+    color:white;
+    position: relative;
+    top:250px;
+}
+.startpara .btn a{
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+.startpara span{
+    color: green;
+    font-weight: bold;
+}
+
+#quotes img{
+    width: 100%;
+    border-radius: 10%;
+    height: 200px;
+}
+#quotes i{
+    color:green;
+}
+#quotes h3{
+    padding-top:10px;
+    padding-left:10px;
+    font-family: 'Bangers', cursive;
+}
+#quotes p{
+    font-size: 14px;
+    font-weight: bold;
+}
+#quotes .row{
+    padding-top:50px;
+}
+#quotes hr{
+    background: green;
+}
+#quotes .jumbotron{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+#quotes .block2{
+    display: none;
+}
+
+#statistics{
+    background: url(../img/fb.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lexend Mega', sans-serif;
+}
+#statistics .dark{
+    background: rgba(0, 0, 0, 0.9);
+    color:white;
+    text-align: center;
+}
+#statistics h2{
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+#statistics .row{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#statistics p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact{
+    background: url(../img/e.png) no-repeat center;
+    background-size: cover;
+    padding:100px 0 70px 0;
+}
+#contact h1{
+    text-transform: uppercase;
+    color: green;
+    font-family: 'Bangers', cursive;
+}
+#contact form{
+    background: rgba(0,0,0,0.9);
+    width:50%;
+    margin: 0 auto;
+    box-shadow:0 0 3px black;
+    padding:60px;
+}
+#contact label{
+    font-weight: bold;
+    color:green;
+}
+#contact input{
+    border:none;
+    border-bottom: 1px solid green;
+    transition: 0.5s all;
+    font-weight: bold;
+}
+#contact input:hover{
+    background: orange;
+    box-shadow: none;
+}
+#contact input:focus{
+    background: orange;
+    box-shadow: 0 0 4px black;
+}
+#contact button{
+    transition: 0.5s all;
+    font-weight: bold;
+    border:none;
+}
+#contact button:hover{
+    background: orange;
+}
+
+footer{
+    padding-top:10px;
+    margin:0;
+    background: black;
+}
+
+@media(max-width:767px){
+    #quotes .block1{
+        display:none
+    }
+    #quotes .block2{
+        display:block;
+    }
+    #contact form{
+        width:80%;
+    }
+}
